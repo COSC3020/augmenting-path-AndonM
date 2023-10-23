@@ -30,5 +30,4 @@ accordingly.
 
 ## Runtime Analysis
 
-What is the worst-case big $\Theta$ complexity of your implementation? Add your
-answer, including your reasoning, to this markdown file.
+In the worst case, we must visit every node in the graph. The worst case scenario for BFS is O(V + E), where V is the number of vertices (nodes) in the graph, and E is the number of edges. The while loop does not have a set amount of time it needs to run so we are good to stop there with a final time-complexity of O(V + E) which can obviously scale with the size of the graph.
